@@ -14,7 +14,7 @@ def create_and_update_file(file_name):
 
     with open(file_name, 'r') as file:
         file_content = file.read()
-        print(f"Вміст файлу '{file_name}':\n{file_content}")
+        print(f"File content '{file_name}':\n{file_content}")
 
 if __name__ == '__main__':
     create_and_update_file('example.txt');
